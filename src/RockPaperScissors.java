@@ -13,10 +13,10 @@ public class RockPaperScissors {
         counter = 0;
         // player input
         System.out.println("Welcome to the treacherous game of:\nROCK, PAPER, SCISSORS");
-        System.out.println("Play if you dare mere mortal.......    The Rules are as follows: ");
-        System.out.println("Enter 0 for paper, 1 for Scissors, or 2 for Rock (-1 to quit) : ");
-        System.out.println("I (the ancient being) will be ready to keep going after every throw just enter another number");
-        System.out.println("I'd understand if you want to quit right now. ");
+        System.out.println("Play if you dare mere mortal....... The Rules are as follows:");
+        System.out.println("Enter 0 for paper, 1 for Scissors, or 2 for Rock  (-1 to quit)");
+        System.out.println("I (the ancient being) will be ready to keep going after every throw.");
+        System.out.println("Just enter another number. I'd understand if you want to quit right now. ");
         System.out.println("Go ahead, PLAY:");
 
         player = board.nextInt();
@@ -67,7 +67,7 @@ public class RockPaperScissors {
                 System.out.println("Pffft! I gave you that win!");
             else if (computer == 1 && player == 0)
                 System.out.println("I Win nice try mortal");
-            else if (player == 0 && computer == 2)
+            else if (player == 2 && computer == 0)
                 System.out.println("I Win nice try mortal");
             else if (player == 1 && computer == 2)
                 System.out.println("I Win nice try mortal");
@@ -76,7 +76,7 @@ public class RockPaperScissors {
 
         } while ((player = board.nextInt()) != -1);
         System.out.println("Thanks for playing but in the end, I always win...");
-        System.out.println("(Menacing laughing starts lowering in volume)");
+        System.out.println("(Menacing laughing starts echoing and slowly drifts away getting softer in volume)");
 
 
 
