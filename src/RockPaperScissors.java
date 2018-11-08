@@ -2,15 +2,11 @@ import java.util.Random;
 import java.util.Scanner;
 public class RockPaperScissors {
 
-
-
-
     public static void main(String[]args) {
         //declare variables
         Scanner board = new Scanner(System.in);
         // declare variables
-        int player, computer, counter;
-        counter = 0;
+        int player, computer;
         // player input
         System.out.println("Welcome to the treacherous game of:\nROCK, PAPER, SCISSORS");
         System.out.println("Play if you dare mere mortal....... The Rules are as follows:");
